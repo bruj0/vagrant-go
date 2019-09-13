@@ -10,7 +10,7 @@ deploy:
   skip_cleanup: true
   api_key:
     secure: T4XDc3rewK5AL9CR6medJ4lWRrIuFsI8RaMlb11cD/NaUm0jOVKyl0JecO/FJOWU3Og0Ahe3+WX97BNtsa6LfRUUh+dlOxtcIdMARecGHoc3dr8lwZwQiPWEOKoXj08XwhxZBkfqfyMY58RiYxUUefZQCH9F2wr0lqwRQZxyDufEYsV8uUjj8Gt0bBg2j+QjcMTQOsRXFNiGYVUVznIaxi0fV9GyIfNGU8oTAf9cJ4dPouqQwRqFgqwA6KA5Xd31Lsja7V4myDEyVWIBeAR03xGmGtGbyvKTBEW5JD4o85jATz7kG+aRWzLolMONICh8zxBgt47yur+AyrW8pgWTsqjo1Re1MW6KU/N/dV0o96VWipeMU0q1BGoxFFhDJqSG0dRl1CzM+KX+yW3S+UiHet8y77CKHXWkf4kovvqC87cqlXyFDMtndhedN73ZLDTT8sKdQNdoltl/bo4sPZVsu+gjRfKLcVbjna3ekNY+KCdimUX6HsBip2Bw741UuCWz/BEWurZyn7O/Bsl6RbA0kLlg0mZSFymQ2Ka7Xx/mcReL/5cTm20PZiH/uRdJLfsA0E5hbTZY97hi7qaPQhk5zo2huIq1S/V6rNI/BZUQpZjwzQaZGC8zp1xpVBRzn5KpJArt+CIokaH6ZB32Dh/9dHYft4qWfNxUPeuSGZOKvd4=
-  file: app/hello
+  file: hello
   on:
     repo: bruj0/vagrant-go
     tags: true
