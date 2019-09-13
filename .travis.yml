@@ -1,8 +1,10 @@
-language: generic
+language: go
 dist: xenial
 sudo: required
 script:
-- bash app/test-hello.sh
+- cd app
+- go build hello.go
+- bash test-hello.sh
 deploy:
   provider: releases
   skip_cleanup: true

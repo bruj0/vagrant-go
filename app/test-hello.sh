@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-out=$(app/hello)
+out=$(./hello)
 
 # we should check out == hello
 if [ "${out}" == "hello world" ];then
